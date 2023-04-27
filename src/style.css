@@ -31,3 +31,9 @@ body {
 .number {
   font-size: 120px;
 }
+
+.btn {
+  position: absolute;
+  left: 20%;
+  bottom: 50%;
+}
