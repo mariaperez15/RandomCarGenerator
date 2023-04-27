@@ -11,3 +11,23 @@ body {
   width: 390px;
   border-radius: 10px;
 }
+
+.paloBottom {
+  transform: rotate(180deg);
+  font-size: 110px;
+  position: absolute;
+  bottom: 0px;
+  left: 78%;
+  margin: 0%;
+}
+
+.paloTop {
+  font-size: 110px;
+  position: absolute;
+  top: 0px;
+  right: 78%;
+}
+
+.number {
+  font-size: 120px;
+}

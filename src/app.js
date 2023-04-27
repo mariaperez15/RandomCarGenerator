@@ -26,17 +26,18 @@ window.onload = function() {
   document.querySelector(".paloTop").innerHTML = palo[numPalo];
   if (palo[numPalo] == "♦") {
     let rombo = document.querySelector(".paloTop");
-    rombo.style.color = "red"
+    rombo.style.color = "red";
   } else if (palo[numPalo] == "♥") {
-    let corazon = document.querySelector("paloTop");
-    corazon.style.color = "red"
-  } else if (palo[numPalo] == "♠"){
-    let picas = document.querySelector("paloTop");
-    picas.style.color = 
-  } else {
-    let trebol
+    let heart = document.querySelector(".paloTop");
+    heart.style.color = "red";
+  }
+
+  document.querySelector(".paloBottom").innerHTML = palo[numPalo];
+  if (palo[numPalo] == "♦") {
+    let rombo = document.querySelector(".paloBottom");
+    rombo.style.color = "red";
+  } else if (palo[numPalo] == "♥") {
+    let heart = document.querySelector(".paloBottom");
+    heart.style.color = "red";
   }
 };
-
-
-// rotated.style.transform = 'rotate(90deg)
