@@ -36,4 +36,5 @@ body {
   position: absolute;
   left: 20%;
   bottom: 50%;
+  cursor: pointer;
 }

@@ -5,7 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
+window.onload = function generador() {
   //write your code here
 
   let num = Math.floor(Math.random() * 13) + 1;
@@ -41,3 +41,6 @@ window.onload = function() {
     heart.style.color = "red";
   }
 };
+
+const reloadButton = document.querySelector("#btn");
+reloadButton.addEventListener("click", generador);
