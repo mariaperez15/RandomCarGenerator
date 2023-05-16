@@ -22,7 +22,7 @@ window.onload = function() {
     }
 
     let palo = ["♦", "♥", "♠", "♣"];
-    let numPalo = Math.floor(Math.random() * 3);
+    let numPalo = Math.floor(Math.random() * 4);
     document.querySelector(".paloTop").innerHTML = palo[numPalo];
     if (palo[numPalo] == "♦") {
       let rombo = document.querySelector(".paloTop");
@@ -30,6 +30,12 @@ window.onload = function() {
     } else if (palo[numPalo] == "♥") {
       let heart = document.querySelector(".paloTop");
       heart.style.color = "red";
+    } else if (palo[numPalo] == "♠") {
+      let picas = document.querySelector(".paloTop");
+      picas.style.color = "black";
+    } else if (palo[numPalo] == "♣") {
+      let trebol = document.querySelector(".paloTop");
+      trebol.style.color = "black";
     }
 
     document.querySelector(".paloBottom").innerHTML = palo[numPalo];
@@ -39,6 +45,12 @@ window.onload = function() {
     } else if (palo[numPalo] == "♥") {
       let heart = document.querySelector(".paloBottom");
       heart.style.color = "red";
+    } else if (palo[numPalo] == "♠") {
+      let picas = document.querySelector(".paloBottom");
+      picas.style.color = "black";
+    } else if (palo[numPalo] == "♣") {
+      let trebol = document.querySelector(".paloBottom");
+      trebol.style.color = "black";
     }
   }
   const reloadButton = document.querySelector("#btn");
